@@ -1,0 +1,47 @@
+.hero{
+    display: flex;
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    background: var(--Off-White, #F5F5F5);
+    &__left{
+        width: 50%;
+        height: 100%;
+        padding-top: 180px;
+        padding-left: 150px;
+        &-top{
+            width: 450px;
+            height: 120px;
+            color: var(--Dark-Blue, #232340);
+            font-family: Lexend Deca;
+            font-size: 50px;
+            font-style: normal;
+        }
+        &-name{
+            width: 450px;
+            height: 100px;
+            color: rgba(35, 35, 64, 0.90);
+            font-family: Lexend Deca;
+            font-size: 18px;
+            font-style: normal;
+        }
+    }
+    &__right{
+        width: 50%;
+        height: 100%;
+        &-img{
+            width: 480px;
+            height: 520px;
+            padding-top: 80px;
+            padding-left: 50px;
+
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    .hero{
+        width: 100%;
+        
+    }
+}

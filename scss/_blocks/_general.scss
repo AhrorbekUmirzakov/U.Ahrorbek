@@ -1,0 +1,44 @@
+.general{
+    display: flex;
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    background: var(--Off-White, #F5F5F5);
+    &__left{
+        width: 50%;
+        height: 100%;
+        &-img{
+            width: 480px;
+            height: 550px;
+            margin-left: 150px;
+            padding-top: 50px;
+        }
+    }
+    &__right{
+        width: 50%;
+        height: 100%;
+        padding-top: 180px;
+        padding-left: 100px;
+        &-top{
+            width: 450px;
+            height: 120px;
+            color: var(--Dark-Blue, #232340);
+            font-family: Lexend Deca;
+            font-size: 50px;
+        }
+        &-name{
+            width: 450px;
+            height: 100px;
+            color: rgba(35, 35, 64, 0.90);
+            font-family: Lexend Deca;
+            font-size: 18px;
+            font-style: normal;
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    .general{
+        width: 100%;
+    }
+}

@@ -1,0 +1,64 @@
+.extra{
+    display: flex;
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    background: var(--Off-White, #F5F5F5);
+    &__left{
+        width: 40%;
+        height: 100%;
+        padding-top: 220px;
+        padding-left: 150px;
+        &-top{
+            width: 450px;
+            height: 120px;
+            color: var(--Dark-Blue, #232340);
+            font-family: Lexend Deca;
+            font-size: 50px;
+            font-style: normal;
+        }
+        &-name{
+            width: 450px;
+            height: 100px;
+            color: rgba(35, 35, 64, 0.90);
+            font-family: Lexend Deca;
+            font-size: 18px;
+            font-style: normal;
+        }
+    }
+    &__right{
+        width: 60%;
+        height: 100%;
+        &-img{
+            width: 750px;
+            height: 670px;
+            padding-top: 50px;
+            margin-left: 30px;
+        }
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .extra{
+       width: 100%;
+       flex-direction:column-reverse;
+       &__left{
+        &-top{
+            width: 400px;
+            margin-top: 100px;
+            &-name{
+                width: 300px;
+            }
+        }
+       }
+       &__right{
+        width: 100%;
+        &-img{
+            width: 700px;
+            height: 1000px;
+           padding-top: 600px;
+        }
+       }
+    }
+}

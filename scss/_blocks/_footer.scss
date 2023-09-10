@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 400px;
+    border: 1px solid;
+    margin: 0 auto;
+    background: var(--Dark-Blue, #232340);
+    gap: 50px;
+    background-image: url(/img/Footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+
+@media screen and (max-width:768px){
+    .footer{
+        width: 100%;
+    }
+}
