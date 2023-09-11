@@ -128,6 +128,13 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 390px) {
+  .header {
+    width: 390px;
+    height: 844px;
+    margin: 0 auto;
+  }
+}
 .extra {
   display: flex;
   width: 1300px;
@@ -231,10 +238,27 @@
 
 @media screen and (max-width: 768px) {
   .customer {
+    width: 768px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .customer__left {
     width: 100%;
+    height: 100%;
+    display: flex;
   }
   .customer__left-img {
+    width: 50%;
+    height: 100%;
+    background-image: url(/img/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .customer__right {
     width: 100%;
+    height: 100%;
   }
 }
 .hero {
@@ -280,6 +304,7 @@
 @media screen and (max-width: 768px) {
   .hero {
     width: 100%;
+    height: 100%;
   }
 }
 .general {
@@ -323,7 +348,27 @@
 
 @media screen and (max-width: 768px) {
   .general {
+    width: 768px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .general__left {
     width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  .general__left-img {
+    width: 50%;
+    height: 100%;
+    background-image: url(/img/Image\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .general__right {
+    width: 100%;
+    height: 100%;
   }
 }
 .probably {
